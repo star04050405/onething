@@ -11,48 +11,48 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{font-size:16px}
-body{font-family:Georgia,"Songti SC","Noto Serif SC",serif;background:#EFE8D8;color:#2B2620;
+body{font-family:Georgia,"Songti SC","Noto Serif SC",serif;background:#E9EEF3;color:#22344A;
  line-height:1.8;-webkit-font-smoothing:antialiased}
 .wrap{max-width:640px;margin:0 auto;padding:0 22px 110px}
 /* 书脊头 */
-header{padding:44px 0 24px;border-bottom:1px solid #C9BFA4;text-align:center}
-.kicker{font-size:.64rem;letter-spacing:.3em;color:#8A8066;margin-bottom:12px}
+header{padding:44px 0 24px;border-bottom:1px solid #B7C4D0;text-align:center}
+.kicker{font-size:.64rem;letter-spacing:.3em;color:#6B7E93;margin-bottom:12px}
 h1{font-size:1.9rem;font-weight:700;line-height:1.3}
-h1 .dot{color:#8E3B2E}
-.sub{font-size:.8rem;color:#6B6353;margin-top:8px;font-style:italic}
+h1 .dot{color:#2E5A87}
+.sub{font-size:.8rem;color:#5A7089;margin-top:8px;font-style:italic}
 /* 阅读器 */
 .reader{margin-top:26px}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
-.nav button{background:transparent;border:1px solid #2B2620;color:#2B2620;border-radius:2px;padding:9px 16px;font-size:.82rem;font-family:inherit;cursor:pointer}
+.nav button{background:transparent;border:1px solid #22344A;color:#22344A;border-radius:2px;padding:9px 16px;font-size:.82rem;font-family:inherit;cursor:pointer}
 .nav button:active{transform:scale(.96)}
 .nav button:disabled{opacity:.3}
-.pinfo{font-size:.75rem;color:#8A8066;letter-spacing:.12em;font-family:"Courier New",monospace}
+.pinfo{font-size:.75rem;color:#6B7E93;letter-spacing:.12em;font-family:"Courier New",monospace}
 .fsz{display:flex;gap:6px}
-.fsz button{background:none;border:1px solid #C9BFA4;color:#2B2620;border-radius:8px;padding:6px 10px;font-size:.75rem}
+.fsz button{background:none;border:1px solid #B7C4D0;color:#22344A;border-radius:8px;padding:6px 10px;font-size:.75rem}
 /* 书页 */
-.page{background:#F7F2E4;border:1px solid #D8CDB4;border-radius:4px;padding:34px 26px 30px;
+.page{background:#F5F8FB;border:1px solid #C5D1DD;border-radius:4px;padding:34px 26px 30px;
  box-shadow:0 2px 10px rgba(90,75,50,.08);min-height:380px;position:relative}
-.page:before{content:"";position:absolute;top:0;left:26px;right:26px;height:2px;background:#8E3B2E;opacity:.5}
-.pno{font-family:"Courier New",monospace;font-size:.7rem;color:#8A8066;letter-spacing:.2em;margin-bottom:20px}
-.lbl{font-size:.6rem;letter-spacing:.22em;color:#8A8066;margin:10px 0 2px;font-family:'Courier New',monospace}.lbl2{font-size:.6rem;letter-spacing:.22em;color:#8E3B2E;margin:14px 0 2px;font-family:'Courier New',monospace}
-.en{font-size:1.02rem;font-style:italic;color:#4A443A;white-space:pre-line}
-.zh{margin-top:26px;padding-top:22px;border-top:1px dashed #C9BFA4;font-size:.98rem;color:#2B2620;white-space:pre-line}
+.page:before{content:"";position:absolute;top:0;left:26px;right:26px;height:2px;background:#2E5A87;opacity:.5}
+.pno{font-family:"Courier New",monospace;font-size:.7rem;color:#6B7E93;letter-spacing:.2em;margin-bottom:20px}
+.lbl{font-size:.6rem;letter-spacing:.22em;color:#6B7E93;margin:10px 0 2px;font-family:'Courier New',monospace}.lbl2{font-size:.6rem;letter-spacing:.22em;color:#2E5A87;margin:14px 0 2px;font-family:'Courier New',monospace}
+.en{font-size:1.02rem;font-style:italic;color:#31465E;white-space:pre-line}
+.zh{margin-top:26px;padding-top:22px;border-top:1px dashed #B7C4D0;font-size:.98rem;color:#22344A;white-space:pre-line}
 /* 进度条 */
-.pbar{height:2px;background:#D8CDB4;margin:22px 0 8px;border-radius:2px}
-.pfill{height:100%;background:#8E3B2E;width:0;transition:width .3s}
-.plabel{font-size:.68rem;color:#8A8066;text-align:center;font-family:"Courier New",monospace}
+.pbar{height:2px;background:#C5D1DD;margin:22px 0 8px;border-radius:2px}
+.pfill{height:100%;background:#2E5A87;width:0;transition:width .3s}
+.plabel{font-size:.68rem;color:#6B7E93;text-align:center;font-family:"Courier New",monospace}
 /* 跳页 */
 .jump{display:flex;gap:8px;margin-top:14px;justify-content:center}
 .jump input{width:90px;font-family:"Courier New",monospace;font-size:.9rem;text-align:center;
- background:#F7F2E4;border:1px solid #C9BFA4;border-radius:8px;padding:9px 6px;color:#2B2620;font-size:16px}
-.jump button{font-family:inherit;background:none;border:1px solid #2B2620;color:#2B2620;border-radius:8px;padding:9px 16px;font-size:.8rem;cursor:pointer}
-.today{display:block;margin:16px auto 0;font-family:inherit;background:#8E3B2E;color:#F7F2E4;border:none;
+ background:#F5F8FB;border:1px solid #B7C4D0;border-radius:8px;padding:9px 6px;color:#22344A;font-size:16px}
+.jump button{font-family:inherit;background:none;border:1px solid #22344A;color:#22344A;border-radius:8px;padding:9px 16px;font-size:.8rem;cursor:pointer}
+.today{display:block;margin:16px auto 0;font-family:inherit;background:#2E5A87;color:#F5F8FB;border:none;
  border-radius:999px;padding:10px 24px;font-size:.85rem;cursor:pointer;font-weight:600}
 /* 关于 */
-.about{margin-top:40px;padding:26px 22px;background:#F7F2E4;border:1px dashed #C9BFA4;border-radius:4px;font-size:.82rem;color:#6B6353;line-height:1.9}
-.about b{color:#2B2620}
-footer{margin-top:34px;text-align:center;font-size:.68rem;color:#8A8066;font-family:"Courier New",monospace;letter-spacing:.18em}
-#toast{position:fixed;left:50%;bottom:88px;transform:translateX(-50%) translateY(20px);background:#2B2620;color:#EFE8D8;
+.about{margin-top:40px;padding:26px 22px;background:#F5F8FB;border:1px dashed #B7C4D0;border-radius:4px;font-size:.82rem;color:#5A7089;line-height:1.9}
+.about b{color:#22344A}
+footer{margin-top:34px;text-align:center;font-size:.68rem;color:#6B7E93;font-family:"Courier New",monospace;letter-spacing:.18em}
+#toast{position:fixed;left:50%;bottom:88px;transform:translateX(-50%) translateY(20px);background:#22344A;color:#E9EEF3;
  padding:10px 22px;border-radius:999px;font-size:.8rem;opacity:0;transition:all .3s;pointer-events:none;z-index:9;white-space:nowrap}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 </style>
