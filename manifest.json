@@ -1,0 +1,12 @@
+{
+  "name": "onething. 每天一件让心安定的事",
+  "short_name": "onething.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#EFE8D8",
+  "theme_color": "#8E3B2E",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
